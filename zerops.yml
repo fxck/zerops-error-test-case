@@ -2,7 +2,7 @@ nodejs0:
   build:
     base: [ nodejs@16 ]
     build:
-      - exit 
+      - exit 1
     deploy: [ index.js ]
   run:
     start: node index.js
